@@ -1,0 +1,22 @@
+.grid {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.minion {
+    background-image: url(minion.png);
+    background-size: cover;
+}
+body{
+    background-color: lavender;
+}
